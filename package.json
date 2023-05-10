@@ -10,7 +10,7 @@
         ]
     },
     "peerDependencies": {
-        "co.acoustic.mobile.push.sdk": "file:../co.acoustic.mobile.push.sdk",
+        "co.acoustic.mobile.push.sdk": "github:Whatuni/co.acoustic.mobile.push.sdk",
         "jquery": "^3.6.0",
         "jquery-mobile": "^1.5.0-alpha.1"
     },
