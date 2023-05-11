@@ -58,7 +58,7 @@ var rootdir = path.join(process.env.PWD, 'plugins', 'co.acoustic.mobile.push.plu
 
 filestocopy.forEach(function (val) {
   var srcfile = path.join(rootdir, val);
-  var destfile = path.join(process.env.PWD, 'www/assets', val);
+  var destfile = path.join(process.env.PWD, 'www', val);
   var destdir = path.dirname(destfile);
 
   if (!fs.existsSync(destdir)) {
